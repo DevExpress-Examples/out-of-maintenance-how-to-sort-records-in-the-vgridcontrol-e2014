@@ -1,14 +1,11 @@
-<!-- default file list -->
-*Files to look at*:
-
-* [SortableBindingList.cs](./CS/Q245442/Collections/SortableBindingList.cs) (VB: [SortableBindingList.vb](./VB/Q245442/Collections/SortableBindingList.vb))
-* **[Form1.cs](./CS/Q245442/Form1.cs) (VB: [Form1.vb](./VB/Q245442/Form1.vb))**
-<!-- default file list end -->
 # How to sort records in the VGridControl
 
 
-<p>In the current version <a href="http://documentation.devexpress.com/#WindowsForms/clsDevExpressXtraVerticalGridVGridControltopic">VGridControl</a> doesn't support sorting. We have a suggestion to implement this feature in a future version: <a href="https://www.devexpress.com/Support/Center/p/CS51574">Sort records</a>. This example demonstrates how to emulate this feature by sorting the VGridControl's data source when the user clicks within the row header.</p>
+Starting with version 21.1, a user can [sort data in a VGridControl](http://docs.devexpress.devx/WindowsForms/403034/controls-and-libraries/vertical-grid/sorting?v=21.1) from a row header's context menu.
+Set the [AllowSort](http://docs.devexpress.devx/WindowsForms/DevExpress.XtraVerticalGrid.VGridOptionsBehavior.AllowSort?v=21.1) property to **false** to disable this functionality.
 
-<br/>
+You can enable the control's [AllowSortOnClick](http://docs.devexpress.devx/WindowsForms/DevExpress.XtraVerticalGrid.VGridOptionsBehavior.AllowSortOnClick?v=21.1) option to sort data when users click on a row header. 
+
+
 
 
